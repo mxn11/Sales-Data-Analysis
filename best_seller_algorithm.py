@@ -13,6 +13,7 @@
         ELSE
             // Keep existing max
             CONTINUE
+            # Modification 2: Tie-breaker logic confirmed
         END IF
         
         INCREMENT index
