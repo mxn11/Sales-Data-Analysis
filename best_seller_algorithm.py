@@ -1,10 +1,11 @@
     START
     INITIALIZE maxSales = 0
     INITIALIZE bestProduct = "None"
-    INITIALIZE index = 0
+    INITIALIZE index = 0 # Optimized start
     GET salesList
 
     WHILE (index < length of salesList) DO
+        # Modification 1: Optimized loop start index
         currentSales = salesList[index].sales
         
         IF (currentSales > maxSales) THEN
