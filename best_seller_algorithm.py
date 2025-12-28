@@ -1,4 +1,3 @@
-ALGORITHM FindBestSeller
     START
     INITIALIZE maxSales = 0
     INITIALIZE bestProduct = "None"
